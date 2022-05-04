@@ -301,10 +301,14 @@ img{
     position: relative;
     overflow: hidden;
     outline: none;
+	border-radius:20px;
 }
 
 .download:hover {
-    background-color: #2155CD;
+	 background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
 }
 
 .wa {
@@ -315,7 +319,7 @@ img{
     font-family: "Nunito", Sans-serif;
     cursor: pointer;
     border: none;
-    background-color:#2ed573;
+    background-color: #26de81;
     color: var(--white-color);
     border-radius: 5px;
     display: block;
@@ -327,12 +331,14 @@ img{
     position: relative;
     overflow: hidden;
     outline: none;
+	border-radius:20px;
 }
 .wa:hover {
-	background-color:#1f7a12;
+	 background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
 }
-	
-
 
 
 /*====== SKILLS=====*/
@@ -475,7 +481,7 @@ img{
 }
 
 .footer__link:hover{
-    color: var(--first-color);
+    color: #4bcffa;
 }
 
 .footer__social{
@@ -483,7 +489,11 @@ img{
     margin-right: var(--mb-1);
 }
 .footer__social:hover{
-    color: var(--first-color);
+    color: #4bcffa;
+}
+
+.about__social-icon:hover{
+color:#4bcffa;
 }
 
 /* ===== MEDIA QUERIES =====*/
