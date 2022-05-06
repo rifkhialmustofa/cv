@@ -282,27 +282,19 @@ img{
 
 .download {
 	
-    font-size: 20px;
-	font-weight: 500;
-	padding: 10px 30px;
-	margin-top: 20px;
-    font-family: "Nunito", Sans-serif;
-    cursor: pointer;
-    border: none;
-    background-color:#00BFFF;
-    color: var(--white-color);
-    border-radius: 5px;
-    display: block;
-    width: 200px;
-    height: 50px;
-    transition: all 0.3s ease;
-    transform-origin: center bottom;
-    transform: scale(1);
-    position: relative;
-    overflow: hidden;
-    outline: none;
-	border-radius:20px;
+    
+    font-family: "Nunito", Sans-serif;  
+    font-size: 1.1em;   
+    background: #4b7bec;  
+    color: white; 
+    border: white 0.2rem solid; 
+    border-radius: 1rem; 
+    padding: 0.8rem 1.8rem; 
+    margin-top: 1rem; 
+    text-decoration:none;  
 }
+
+
 
 .download:hover {
 	 background: #00F260;  /* fallback for old browsers */
@@ -312,26 +304,15 @@ img{
 }
 
 .wa {
-	font-size: 20px;
-	font-weight: 500;
-	padding: 10px 30px;
-	margin-top: 20px;
-    font-family: "Nunito", Sans-serif;
-    cursor: pointer;
-    border: none;
-    background-color: #26de81;
-    color: var(--white-color);
-    border-radius: 5px;
-    display: block;
-    width: 200px;
-    height: 50px;
-    transition: all 0.3s ease;
-    transform-origin: center bottom;
-    transform: scale(1);
-    position: relative;
-    overflow: hidden;
-    outline: none;
-	border-radius:20px;
+	 font-family:"Nunito", Sans-serif; 
+    font-size: 1.1em;   
+    background: #2ed573;  
+    color: white; 
+    border: white 0.2rem solid; 
+    border-radius: 1rem; 
+    padding: 0.8rem 1.8rem; 
+    margin-top: 1rem; 
+    text-decoration:none;
 }
 .wa:hover {
 	 background: #00F260;  /* fallback for old browsers */
