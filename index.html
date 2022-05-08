@@ -190,17 +190,16 @@
                         <h3 class="contact__subtitle">Adress</h3>
                         <span class="contact__text">Bekasi</span>
                     </div>
-
-                    <form action="" class="contact__form">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
-                        </div>
-
-                        <textarea name="" id="" cols="" rows="" class="contact__input"></textarea>
-
-                        <input type="submit" value="submit" class="contact__button">
-                    </form>
+			
+		    <form action="https://formspree.io/f/xpzbkako" target="_blank" method="POST" class="contact__form" >
+			<div class="contact__inputs">
+				<input type="text" name="Name" placeholder="Name"required class="name">
+				<input type="text" name="Email"placeholder="Email" required class="email">
+			</div> 
+				<textarea name="Message" placeholder="Message" required class="msg"></textarea>
+				<button type="submit" class="contact__button">Send</button>
+		   </form>
+                    
                 </div>
             </section>
         </main>
