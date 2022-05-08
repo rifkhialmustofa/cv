@@ -425,12 +425,30 @@ img{
     column-gap: 1rem;
 }
 
-.contact__input{
+.name{
     width: 100%;
     padding: .8rem;
     outline: none;
     border: 1.5px solid var(--dark-color);
     font-size: var(--normal-font-size);
+    margin-bottom:var(--mb-4);
+    border-radius: .5rem;
+}
+.email{
+    width: 100%;
+    padding: .8rem;
+    outline: none;
+    border: 1.5px solid var(--dark-color);
+    font-size: var(--small-font-size);
+    margin-bottom:var(--mb-4);
+    border-radius: .5rem;
+}
+.msg{
+    width: 100%;
+    padding: .8rem;
+    outline: none;
+    border: 1.5px solid var(--dark-color);
+    font-size: var(--small-font-size);
     margin-bottom:var(--mb-4);
     border-radius: .5rem;
 }
